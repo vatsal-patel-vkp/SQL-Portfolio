@@ -57,4 +57,4 @@ SELECT TOP (1000) [EmployeeID]
 	, [JobTitle]
 	, [Salary]
   FROM [SQL_Practice].[dbo].[EmployeeSalary]
-  
+  ![image](https://github.com/vatsal-patel-vkp/Financial-Analysis/assets/107895872/2bbdab2a-adfd-4a43-b691-bddadade9cca)
