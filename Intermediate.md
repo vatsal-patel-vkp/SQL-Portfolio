@@ -45,3 +45,16 @@ WHERE FirstName <> 'Urali'
 
 
 
+## 7. Union
+
+SELECT EmployeeID, FirstName, Age
+FROM EmployeeDemographics
+UNION
+SELECT EmployeeID, JobTitle, Salary
+FROM EmployeeSalary
+
+![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/79bed731-7b2f-4434-817a-ab3e4130ff38)
+
+
+
+
