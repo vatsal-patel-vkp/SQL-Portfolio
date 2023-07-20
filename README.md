@@ -1,4 +1,4 @@
-# SQL
+# SQL Portfolio
 Welcome to my GitHub repository dedicated to the comprehensive development of SQL skills from basic to advanced levels. This repository showcases my progression and expertise in SQL, offering a valuable resource for anyone interested in learning the language or exploring advanced SQL techniques.
 
 Throughout this SQL series, I have diligently acquired and honed my skills, covering a wide range of topics and concepts. Starting from the fundamentals, I have built a solid foundation in SQL syntax, data querying, and database management. As the series progresses, it delves into more advanced topics, providing a deeper understanding of complex database queries, performance optimization, and data manipulation tasks.
