@@ -17,6 +17,7 @@ CREATE TABLE EmployeeSalary(
 	Salary int
 )
 
+===========================================================================================
 
 ## 2. Inserting data values into 2 tables that represents employees and their designated employment and salary referring fetching data with through EmployeeId
 
@@ -41,6 +42,7 @@ INSERT INTO EmployeeSalary VALUES
 	(1008, 'Salesman', 48000),
 	(1009, 'Accountant', 42000)
 
+===========================================================================================
 
 
 ## 3. Selecting top 1000 employees to display their data
@@ -61,6 +63,7 @@ SELECT TOP (1000) [EmployeeID]
   ![image](https://github.com/vatsal-patel-vkp/Financial-Analysis/assets/107895872/2bbdab2a-adfd-4a43-b691-bddadade9cca)
   
 
+===========================================================================================
 
 ## 4. Fetching data and displaying information from the database table using different methods
 
@@ -103,6 +106,7 @@ FROM EmployeeSalary
 ![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/b35481f3-cc2b-470d-b941-cdd3e69bcfc9)
 
 
+===========================================================================================
   
 
 ## 5. Using different methods with "WHERE" statements to fetch data from the Database Table
