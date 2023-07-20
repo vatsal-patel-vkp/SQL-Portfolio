@@ -41,6 +41,8 @@ and reputable research institutions. It includes information on COVID-19 cases, 
 
 
 
+## Code
+
 SELECT * 
 FROM PortfolioProject..[Covid-deaths]
 WHERE continent IS NOT NULL
