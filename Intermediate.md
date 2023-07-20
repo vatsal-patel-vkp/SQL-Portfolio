@@ -94,19 +94,11 @@ ORDER BY AVG(Salary) DESC
 ===========================================================================================
 
 
-## 9. Updating & Deleting Data
-
-SELECT * FROM EmployeeDemographics
-
-![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/8c837b8c-9d8d-47ad-8f85-263513a8872d)
-
+## 10. Updating & Deleting Data Statement
 
 UPDATE EmployeeDemographics
 SET Age = 36, Gender = 'Female'
 WHERE EmployeeID = 1012
-
-![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/91d656e3-613e-432f-aa9c-f7e572880389)
-
 
 DELETE
 FROM EmployeeDemographics
@@ -114,4 +106,38 @@ WHERE EmployeeID = 1005
 
 ![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/327f6022-0d84-4921-a8ea-7e3ffbf11133)
 
+===========================================================================================
 
+
+## 11. Aliasing Statement
+
+SELECT FirstName + ' ' + LastName AS 'Full Name'
+FROM EmployeeDemographics
+
+![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/e038f3a0-e37f-4335-95ff-4736131c2c97)
+
+
+
+SELECT DEMO.EmployeeID, DEMO.FirstName, DEMO.LastName, Sal.JobTitle
+FROM EmployeeDemographics DEMO
+LEFT JOIN EmployeeSalary Sal
+ON DEMO.EmployeeID = Sal.EmployeeId
+LEFT JOIN WareHouseEmployeeDemographics AS WARE
+ON DEMO.EmployeeID = WARE.EmployeeID
+
+![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/765a7330-947c-4265-b0b3-67a9bc24c035)
+
+
+
+
+===========================================================================================
+
+
+## 12. Partition By Statement
+
+SELECT FirstName, LastName, Gender, Salary, COUNT(Gender) OVER (PARTITION BY GENDER) as TotalGender
+FROM EmployeeDemographics DEMO
+JOIN EmployeeSalary SAL
+ON DEMO.EmployeeID = SAL.EmployeeId
+
+![image](https://github.com/vatsal-patel-vkp/SQL/assets/107895872/4c65a7b3-734f-480c-8cce-2f5405c0927d)
