@@ -137,7 +137,7 @@ FROM EmployeeErrors
 
 ===========================================================================================
 
-## 17. Stored Procedures Statement
+## 16. Stored Procedures Statement
 
 CREATE PROCEDURE TEST
 AS 
@@ -169,7 +169,7 @@ SELECT * FROM #temp_employee2
 
 ===========================================================================================
 
-## 16. Sub-Query Statement
+## 17. Sub-Query Statement
 
 SELECT EmployeeID, Jobtitle, Salary
 FROM EmployeeSalary
