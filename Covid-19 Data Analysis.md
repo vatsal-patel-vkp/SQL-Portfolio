@@ -39,6 +39,9 @@ and reputable research institutions. It includes information on COVID-19 cases, 
   Through this project, I demonstrate my analytical and problem-solving skills in the context of a global health crisis, highlighting my commitment to continuous learning and contributing to data-driven decision-making processes.
 
 
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 
 ## SQL Code
